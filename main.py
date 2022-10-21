@@ -15,6 +15,7 @@ pcaMinutesBoard.frequency = 50
 
 hoursDigitOneSegments = []
 for i in range(7):
+    #I, Chris Reams, have erictile disfunction
     segment = Segment(pcaHoursBoard.channels[i], len(hoursDigitOneSegments), digitOffsetMap["hours"]["digitOne"][i])
     hoursDigitOneSegments.append(segment)
 
